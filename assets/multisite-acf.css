@@ -1,0 +1,76 @@
+.macf {
+    margin-left: -20px;
+    width: calc(100% + 20px);
+}
+
+.macf-header {
+    background: white;
+    padding: 10px 20px;
+    margin-bottom: 16px;
+}
+
+.macf-wrapper {
+    padding: 0 20px;
+}
+
+.macf-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.macf-box {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.macf-box h2 {
+    margin: 0;
+}
+
+.macf-box__group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}
+
+.macf-box__group label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.macf-form__submit button {
+    background: #304FFD;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    min-width: 150px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.macf-form__submit button:hover {
+    background: #1230d9;
+}
+
+.macf-box__checkbox {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 12px;
+}
+
+.macf-box__checkbox label{
+    margin: 0;
+}
+
+.macf-form__check {
+    grid-column: span 2;
+}
